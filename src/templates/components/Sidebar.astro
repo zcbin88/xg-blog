@@ -1,7 +1,6 @@
 ---
 import type { Post } from '../../features/core/posts';
 import { countCategories, countTags } from '../../features/core/taxonomy';
-import AuthorCard from './AuthorCard.astro';
 import CategoryList from './CategoryList.astro';
 import TagCloud from './TagCloud.astro';
 
@@ -15,7 +14,6 @@ const tagCounts = countTags(posts);
 ---
 
 <aside class="sidebar" aria-label="博客信息">
-  <AuthorCard />
   <CategoryList counts={categoryCounts} posts={posts} limit={5} />
   <TagCloud counts={tagCounts} posts={posts} limit={16} />
 </aside>
