@@ -1,0 +1,83 @@
+# 导航菜单配置。
+# label 为菜单文字，href 为链接，target = "blank" 表示新窗口打开。
+# href 留空则不跳转；如果该菜单有 sub，点击时只展开/收起二级菜单。
+
+[[menu]]
+label = "首页"
+href = "/"
+
+[[menu]]
+label = "影视"
+href = "/categories/movies"
+
+[[menu]]
+label = "剧集"
+href = "/categories/tv-series"
+
+[[menu]]
+label = "动漫"
+href = "/categories/anime"
+
+[[menu]]
+label = "软件"
+href = "/categories/software"
+
+[[menu]]
+label = "学习"
+href = "/categories/learning"
+
+[[menu]]
+label = "书籍"
+href = "/categories/books"
+
+[[menu]]
+label = "游戏"
+href = "/categories/games"
+
+[[menu]]
+label = "音乐"
+href = "/categories/music"
+
+[[menu]]
+label = "短视频"
+href = "/categories/short-video"
+
+[[menu]]
+label = "更多"
+href = ""
+
+[[menu.sub]]
+label = "归档"
+href = "/archives"
+
+[[menu.sub]]
+label = "分类"
+href = "/categories"
+
+[[menu.sub]]
+label = "标签"
+href = "/tags"
+
+[[menu.sub]]
+label = "友链"
+href = "/links"
+
+[[menu.sub]]
+label = "纪录片"
+href = "/categories/documentary"
+
+[[menu.sub]]
+label = "图片"
+href = "/categories/images"
+
+[[menu.sub]]
+label = "杂烩"
+href = "/categories/mix"
+
+[[menu.sub]]
+label = "综艺"
+href = "/categories/variety"
+
+[[menu.sub]]
+label = "短剧"
+href = "/categories/short-drama"

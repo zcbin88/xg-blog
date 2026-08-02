@@ -1,0 +1,94 @@
+# 分类配置。slug 需与文章 frontmatter 中的 categories 一致。
+# name 为分类显示名称，description 为分类描述。
+
+[[categories]]
+slug = "movies"
+name = "影视"
+description = "电影推荐、剧集评测、观影指南与影视行业动态。"
+
+[[categories]]
+slug = "software"
+name = "软件"
+description = "效率工具推荐、开源软件替代方案、开发工具与实用APP分享。"
+
+[[categories]]
+slug = "short-video"
+name = "短视频"
+description = "短视频创作教程、剪辑技巧、平台运营与爆款内容策略。"
+
+[[categories]]
+slug = "website"
+name = "建站"
+description = "静态站、博客、域名、CDN 与 SEO 实践。"
+
+[[categories]]
+slug = "tech"
+name = "技术"
+description = "技术实践、工具和开发记录。"
+
+[[categories]]
+slug = "life"
+name = "生活"
+description = "日常记录和经验分享。"
+
+[[categories]]
+slug = "notes"
+name = "笔记"
+description = "零散知识、读书和资料整理。"
+
+# 以下为爬取文章迁移过来的分类
+
+[[categories]]
+slug = "learning"
+name = "学习"
+description = "学习资料、课程合集、考试备考与技能提升资源。"
+
+[[categories]]
+slug = "mix"
+name = "杂烩"
+description = "各类杂项资源、综合分享与未归类内容。"
+
+[[categories]]
+slug = "books"
+name = "书籍"
+description = "电子书、杂志、文档资料与读书笔记。"
+
+[[categories]]
+slug = "music"
+name = "音乐"
+description = "无损音乐、车载 U 盘、播放器与音频资源。"
+
+[[categories]]
+slug = "games"
+name = "游戏"
+description = "PC 游戏、单机大作、经典合集与游戏资源分享。"
+
+[[categories]]
+slug = "documentary"
+name = "纪录片"
+description = "高清纪录片资源、BBC/央视高分纪录片合集。"
+
+[[categories]]
+slug = "images"
+name = "图片"
+description = "高清壁纸、套图、设计素材与图片资源。"
+
+[[categories]]
+slug = "anime"
+name = "动漫"
+description = "国漫、日漫、剧场版与动漫资源合集。"
+
+[[categories]]
+slug = "tv-series"
+name = "剧集"
+description = "国产剧、海外剧、连续剧资源与追剧指南。"
+
+[[categories]]
+slug = "short-drama"
+name = "短剧"
+description = "竖屏短剧、网剧、微短剧资源合集。"
+
+[[categories]]
+slug = "variety"
+name = "综艺"
+description = "综艺节目、真人秀资源与更新合集。"

@@ -11,27 +11,13 @@ output/
 .codex/
 
 # Environment
-.env
-.env.*
+!.env
+!.env.*
 !.env.example
 
-# Local TOML config
-blog/*.toml
+# Scripts
+scripts
 
-# Local article content
-blog/posts/**
-!blog/posts/
-!blog/posts/.gitkeep
-
-# Local custom pages
-blog/pages/**
-!blog/pages/
-!blog/pages/.gitkeep
-
-# Local public assets
-blog/public/**
-!blog/public/
-!blog/public/.gitkeep
 
 # OS / editor
 .DS_Store

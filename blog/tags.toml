@@ -1,0 +1,74 @@
+# 标签配置。slug 需与文章 frontmatter 中的 tags 一致。
+# name 为标签显示名称。
+
+[[tags]]
+slug = "电影推荐"
+name = "电影推荐"
+
+[[tags]]
+slug = "2026"
+name = "2026"
+
+[[tags]]
+slug = "观影指南"
+name = "观影指南"
+
+[[tags]]
+slug = "剧集推荐"
+name = "剧集推荐"
+
+[[tags]]
+slug = "netflix"
+name = "Netflix"
+
+[[tags]]
+slug = "追剧指南"
+name = "追剧指南"
+
+[[tags]]
+slug = "效率工具"
+name = "效率工具"
+
+[[tags]]
+slug = "开发者"
+name = "开发者"
+
+[[tags]]
+slug = "工具推荐"
+name = "工具推荐"
+
+[[tags]]
+slug = "开源"
+name = "开源"
+
+[[tags]]
+slug = "免费软件"
+name = "免费软件"
+
+[[tags]]
+slug = "替代方案"
+name = "替代方案"
+
+[[tags]]
+slug = "剪辑教程"
+name = "剪辑教程"
+
+[[tags]]
+slug = "创作入门"
+name = "创作入门"
+
+[[tags]]
+slug = "短视频创作"
+name = "短视频创作"
+
+[[tags]]
+slug = "抖音"
+name = "抖音"
+
+[[tags]]
+slug = "运营技巧"
+name = "运营技巧"
+
+[[tags]]
+slug = "爆款秘诀"
+name = "爆款秘诀"

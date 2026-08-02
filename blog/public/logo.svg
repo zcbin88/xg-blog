@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="拾光集 logo">
+  <!-- 光：四角星形（汇聚的光） -->
+  <path d="M32 4 Q32 18 46 18 Q32 18 32 32 Q32 18 18 18 Q32 18 32 4 Z" fill="#f59e0b"/>
+  <!-- 光痕：从星形落入容器的细线 -->
+  <path d="M32 32 L32 40" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <!-- 集：张开的容器（接住光） -->
+  <path d="M8 40 C8 54 17 58 32 58 C47 58 56 54 56 40" stroke="#1f2937" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- 容器底部一点亮（被收集到的光） -->
+  <circle cx="32" cy="48" r="2.4" fill="#f59e0b"/>
+</svg>
