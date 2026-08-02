@@ -16,6 +16,7 @@
     "@astrojs/rss": "^4.0.12",
     "@astrojs/sitemap": "^3.3.1",
     "astro": "^5.15.5",
+    "playwright": "^1.62.1",
     "smol-toml": "^1.6.1",
     "typescript": "^5.9.3"
   },

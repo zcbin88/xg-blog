@@ -11,6 +11,12 @@ const xgBlogVersion = 'v0.5.8';
   <div class="container footer-inner">
     <p class="footer-copyright">
       &copy; {site.title}
+      {site.subtitle && (
+        <>
+          {' · '}
+          <span class="footer-tagline">{site.subtitle}</span>
+        </>
+      )}
       {beian && (
         <>
           {' · '}

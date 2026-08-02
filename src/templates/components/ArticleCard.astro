@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import type { Post } from '../../features/core/posts';
-import { getPostCover, getPostPath } from '../../features/core/posts';
+import { getPostCover, getPostDescription, getPostPath } from '../../features/core/posts';
 import PostMeta from './PostMeta.astro';
 
 interface Props {
@@ -10,6 +10,7 @@ interface Props {
 
 const { post } = Astro.props;
 const cover = getPostCover(post);
+const description = getPostDescription(post);
 const href = getPostPath(post);
 const isPinned = post.data.top > 0;
 const coverAlt = `${post.data.title} 封面图`;
@@ -34,7 +35,7 @@ const coverAlt = `${post.data.title} 封面图`;
         </span>
       </a>
     </h2>
-    <p>{post.data.description}</p>
+    <p>{description}</p>
     <PostMeta date={post.data.date} categories={post.data.categories} tags={post.data.tags} compact showTags={false} />
   </div>
 </article>
