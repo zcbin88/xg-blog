@@ -77,7 +77,8 @@ export async function getAllCategories(posts?: PostTaxonomySource[]) {
 
   for (const post of await resolvePosts(posts)) {
     for (const slug of post.data.categories) {
-      slugs.add(normalizeSlug(slug));
+      const normalized = normalizeSlug(slug);
+      if (normalized) slugs.add(normalized);
     }
   }
 
@@ -89,7 +90,8 @@ export async function getAllTags(posts?: PostTaxonomySource[]) {
 
   for (const post of await resolvePosts(posts)) {
     for (const slug of post.data.tags) {
-      slugs.add(normalizeSlug(slug));
+      const normalized = normalizeSlug(slug);
+      if (normalized) slugs.add(normalized);
     }
   }
 
@@ -101,6 +103,8 @@ export function countCategories(posts: Array<{ data: { categories: string[] } }>
 
   for (const post of posts) {
     for (const slug of post.data.categories) {
+      const normalized = normalizeSlug(slug);
+      if (!normalized) continue;
       const category = getCategory(slug);
       counts.set(category.slug, (counts.get(category.slug) ?? 0) + 1);
     }
@@ -114,6 +118,8 @@ export function countTags(posts: Array<{ data: { tags: string[] } }>) {
 
   for (const post of posts) {
     for (const slug of post.data.tags) {
+      const normalized = normalizeSlug(slug);
+      if (!normalized) continue;
       const tag = getTag(slug);
       counts.set(tag.slug, (counts.get(tag.slug) ?? 0) + 1);
     }
