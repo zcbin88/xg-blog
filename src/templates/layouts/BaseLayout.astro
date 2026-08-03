@@ -3,6 +3,7 @@ import SeoHead from '../components/SeoHead.astro';
 import SearchDialog from '../components/SearchDialog.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import SiteHeader from '../components/SiteHeader.astro';
+import Analytics from '@vercel/analytics/astro';
 import { headData } from '../../features/core/data';
 import { getSite } from '../../features/core/seo';
 import globalStylesheet from '../styles/global.css?url';
@@ -49,6 +50,7 @@ const site = getSite();
       <slot />
     </main>
     <SiteFooter />
+    <Analytics />
     <button class="jump-to-comments" type="button" aria-label="跳转到评论区" data-jump-to-comments aria-hidden="true" tabindex="-1" hidden>
       <svg class="jump-to-comments-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
